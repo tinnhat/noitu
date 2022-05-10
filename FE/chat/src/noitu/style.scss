@@ -1,0 +1,48 @@
+.hightlight {
+  color: red;
+  font-size: 20px;
+}
+.text {
+  font-size: 20px;
+  color: #fff;
+}
+.boxmodal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #b6ffce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  .play {
+    border: none;
+    padding: 10px;
+    background-color: #fd5d5d;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+.message:first-child {
+  background-color: #8479e1;
+}
+.score-box {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .btn-restart {
+    padding: 10px;
+    border: none;
+    background-color: #6bcb77;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+}
